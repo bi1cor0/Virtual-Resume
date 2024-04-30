@@ -1,9 +1,29 @@
-.section-1, .bottom-sections, #name-box{display: flex;}
+.section-1, .bottom-sections, #name-box{
+    display: flex;}
+
 .section-1, .bottom-sections {
-    width: 100%;
+    width: 90%;
     height: 25%;
     flex-wrap: wrap;
 }
 
+.section-3 {margin-left: auto;}
+
+.section-1, .section-2, .section-3 {
+    border: 3px solid silver;
+    padding: 10px;
+}
+
 ul{list-style: none;}
 img {height: 200px; width: 200px;}
+
+@media screen and (max-width: 800px) {
+    img {
+      display: none;
+    }
+
+}
+
+@media screen and (max-width: 1900px) {
+    .section-3 {margin-left: 0; margin-right: auto;}  
+}
