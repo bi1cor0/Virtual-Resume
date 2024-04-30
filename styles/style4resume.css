@@ -1,3 +1,4 @@
+body{background-color: rgb(180, 230, 250);}
 .section-1, .bottom-sections, #name-box{
     display: flex;}
 
@@ -10,12 +11,15 @@
 .section-3 {margin-left: auto;}
 
 .section-1, .section-2, .section-3 {
+    background-color:rgba(245, 242, 238, 0.89);
     border: 3px solid silver;
     padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 5px rgb(105, 105, 105);
 }
 
 ul{list-style: none;}
-img {height: 200px; width: 200px;}
+img {height: 200px; width: 200px; border-radius: 30px;}
 
 @media screen and (max-width: 800px) {
     img {
